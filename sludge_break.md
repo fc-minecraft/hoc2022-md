@@ -28,5 +28,5 @@ Use the ``||hoc22.cursor move <direction>||`` block combined with ``||hoc22.brea
     hoc22.cursorMoveOrientationOneRight(1)     
 ```
 ```package
-minecraft-hoc22=github:ReWrite-Media/hoc22-ts
+minecraft-hoc22=github:fc-minecraft/hoc22-ts
 ```

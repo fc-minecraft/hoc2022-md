@@ -28,5 +28,5 @@ Rotate each section using the ``||hoc22.rotate <section> <direction> by <number>
 ```
 
 ```package
-minecraft-hoc22=github:ReWrite-Media/hoc22-ts
+minecraft-hoc22=github:fc-minecraft/hoc22-ts
 ```

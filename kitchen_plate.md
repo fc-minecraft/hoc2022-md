@@ -25,5 +25,5 @@ Use the ``||hoc22.swap <color> side||`` blocks to swap the dishes until everyone
 ```
 
 ```package
-minecraft-hoc22=github:ReWrite-Media/hoc22-ts
+minecraft-hoc22=github:fc-minecraft/hoc22-ts
 ```
