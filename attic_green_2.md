@@ -22,5 +22,5 @@ Move the Agent up two blocks using the ``||hoc22.agent move <direction> by <numb
     hoc22.agentMove(SixDirection.Up, 1)     
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.2
 ```

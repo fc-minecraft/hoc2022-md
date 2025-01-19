@@ -29,5 +29,5 @@ Look above the Agent and use the ``||hoc22.cursor move||`` block to position the
     
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.2
 ```

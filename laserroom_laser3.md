@@ -30,5 +30,5 @@ Use the ``||hoc22.shift||`` blocks to select which row you want to move, and the
       
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.2
 ```

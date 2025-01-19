@@ -23,5 +23,5 @@ Use the ``||hoc22.clay ball move <direction> by <number>||`` block to move the c
     hoc22.clayBallMove(FourDirectionUpDown.Left, 2)     
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.2
 ```
