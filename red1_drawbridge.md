@@ -27,5 +27,5 @@ Teleport the Enderman butler to the Diamond block by using the ``||hoc22.telepor
     hoc22.pullLeverDown()  
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.2
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.3
 ```

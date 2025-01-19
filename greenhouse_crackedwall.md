@@ -32,5 +32,5 @@ Move the cursor using the ``||hoc22.cursor move <direction>||`` block and then u
     hoc22.breakBlock()
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.2
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.3
 ```

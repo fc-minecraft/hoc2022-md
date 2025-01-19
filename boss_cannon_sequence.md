@@ -28,5 +28,5 @@ Pay close attention to the colored rings around the Time Orb. Use the ``||hoc22.
 ```
 
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.2
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.3
 ```

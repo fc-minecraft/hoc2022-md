@@ -30,5 +30,5 @@ Use the ``||hoc22.cursor move <direction>||`` block to select a light and then `
     hoc22.toggleLight()        
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.2
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.3
 ```
