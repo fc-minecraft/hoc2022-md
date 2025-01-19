@@ -30,5 +30,5 @@ Count how many blocks are on the landing behind the puzzle. Use the ``||hoc.drop
       
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.3
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4
 ```

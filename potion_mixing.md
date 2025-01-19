@@ -25,5 +25,5 @@ You'll need one ``||hoc22.Nether Wart||``, ``||hoc22.Phantom Membrane||``, and `
     hoc22.mixingPuzzlePhantomMembrane()    
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.3
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4
 ```

@@ -29,5 +29,5 @@ Use the ``||hoc22.move cursor <direction>||`` and ``||hoc22.place block||`` bloc
     hoc22.placeBlock() 
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.3
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4
 ```

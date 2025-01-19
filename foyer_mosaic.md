@@ -26,5 +26,5 @@ Use the ``||hoc22.push <color> <direction>||`` blocks to trigger the pistons in 
 ```
 
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.3
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4
 ```

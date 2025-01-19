@@ -28,5 +28,5 @@ Use the ``||hoc22.sort||`` blocks to send the mobs to the correct passageways. T
     hoc22.minecraftSortingSkeleton(1)
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.3
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4
 ```
