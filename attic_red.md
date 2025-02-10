@@ -17,7 +17,6 @@
     hoc22.agentMove(SixDirection.Up, 1)
 ```
 ```template
-   
 ```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4

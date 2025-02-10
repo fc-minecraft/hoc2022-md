@@ -18,7 +18,6 @@
     hoc22.yellowCannon()
 ```
 ```template       
-
 ```
 
 ```package
