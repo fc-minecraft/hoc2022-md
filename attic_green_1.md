@@ -16,9 +16,6 @@
     hoc22.cursorMoveOrientationOneUp(3)
     hoc22.openTrapdoor()
 ```
-```template
-
-```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4
 ```
