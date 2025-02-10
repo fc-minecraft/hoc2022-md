@@ -5,13 +5,11 @@
 
 # Attic Tutorial
 
-## Step 1
-The Agent had just enough power to open the Green door. If you can figure out how to open the skylight, the Agent can charge up even more and open the Yellow door.
+## Шаг 1  
+Агенту хватило энергии, чтобы открыть Зеленую дверь. Если ты разгадаешь, как открыть световой люк, Агент сможет зарядиться еще больше и открыть Желтую дверь.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Look above the Agent and use the ``||hoc22.cursor move||`` block to position the cursor over each trapdoor and then use ``||hoc22.open trapdoor||`` to open them. Use the colored arrows to help you choose which direction the cursor should move.
+#### ~ Подсказка  
+Посмотри выше Агента и используй блок ``||hoc22.cursor move||``, чтобы переместить курсор над каждым люком, а затем ``||hoc22.open trapdoor||``, чтобы их открыть. Используй цветные стрелки, чтобы выбрать правильное направление движения курсора.  
 
 
 
@@ -23,9 +21,6 @@ Look above the Agent and use the ``||hoc22.cursor move||`` block to position the
     hoc22.openTrapdoor()
 ```
 ```template
-    hoc22.openTrapdoor()
-    hoc22.cursorMoveOrientationOneRight(2)
-    hoc22.cursorMoveOrientationOneUp(1)
     
 ```
 ```package

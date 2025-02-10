@@ -5,13 +5,12 @@
 
 # Open Doors
 
-## Step 1
-Each one of those colored slots is a lock for a chamber door. Fill all four slots with its matching color to open the chamber doors, so we can get inside!
+## Шаг 1  
+Каждое цветное отверстие — это замок для дверей в камеру. Заполни все четыре отверстия соответствующим цветом, чтобы открыть двери и попасть внутрь!  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
+#### ~ Подсказка  
+Используй блок ``||hoc22.cursor move <direction>||``, чтобы переместить курсор в нужное положение, а затем ``||hoc22.place block||``, чтобы заполнить отверстие. Когда все отверстия будут заполнены, двери камеры откроются.  
 
-#### ~ tutorialhint 
-Use the ``||hoc22.cursor move <direction>||`` block to move the cursor into position and then use ``||hoc22.place block||`` to fill the hole. Once all the holes are filled, the chamber doors should open.
 
 ```ghost
     hoc22.cursorMoveOrientationOneUp(1)
@@ -25,9 +24,7 @@ Use the ``||hoc22.cursor move <direction>||`` block to move the cursor into posi
 
 ```
 ```template
-    hoc22.placeLimeBlock()        
-    hoc22.cursorMoveOrientationOneRight(2)
-    hoc22.placeLightBlueBlock()
+
 ```
 
 ```package
