@@ -21,5 +21,5 @@
     hoc22.limeCannon() 
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.5
 ```
