@@ -5,13 +5,12 @@
 
 # Laser Puzzle
 
-## Step 1
-Solid blocks stop the laser! Shift the row of green blocks to make the laser pass-through the glass blocks and turn on the light at the other side. 
+## Step 1  
+Сплошные блоки останавливают лазер! Сдвинь ряд зеленых блоков так, чтобы лазер проходил через стеклянные блоки и зажигал свет на другой стороне.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
+#### ~ tutorialhint  
+Используй "сдвиг", чтобы выбрать, какой ряд двигать и в каком направлении. Блок на конце ряда переместится на другую сторону.  
 
-#### ~ tutorialhint 
-Use the ``||hoc22.shift||`` blocks to select which row you want to move, and the direction it should move in. The block at the end of the row you are shifting will get bumped to the other side.
 
 
 

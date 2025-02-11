@@ -5,13 +5,11 @@
 
 # Light Power
 
-## Step 1
-Use the cursor to turn on all of the lights. Once all the lights are on the door will open.
+## Step 1  
+Используй курсор, чтобы включить все огни. Когда все огни загорятся, дверь откроется.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Use the ``||hoc22.cursor move <direction>||`` block to select a light and then ``||hoc22.turn on||`` to turn it on. Using a loop will make the code a lot simplier, but isn't required.
+#### ~ tutorialhint  
+Используй "перемещение курсора", чтобы выбрать свет, затем "включить", чтобы его зажечь. Использование цикла упростит код, но это не обязательно.  
 
 
 
@@ -24,10 +22,7 @@ Use the ``||hoc22.cursor move <direction>||`` block to select a light and then `
     for (let index = 0; index < 2; index++) {    }
 ```
 ```template  
-    hoc22.cursorMoveOrientationOneRight(2)   
-    hoc22.toggleLight() 
-    hoc22.cursorMoveOrientationOneRight(2)   
-    hoc22.toggleLight()        
+    hoc22.cursorMoveOrientationOneRight(1)
 ```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4

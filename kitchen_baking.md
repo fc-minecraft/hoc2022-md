@@ -5,13 +5,12 @@
 
 # Bake Bread
 
-## Step 1
-The Zombie Chef needs help making bread. Use the code blocks to create a recipe the Zombie Chef can follow.
+## Step 1  
+Зомби-Повару нужна помощь в приготовлении хлеба. Используй блоки кода, чтобы создать рецепт, которому он сможет следовать.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
+#### ~ tutorialhint  
+Подумай, в каком порядке нужно готовить хлеб. Сначала нужно "взять пшеницу", но что дальше? Всего четыре шага.  
 
-#### ~ tutorialhint 
-Think about the order of operations it takes to make bread. You'd first ``||hoc22.harvest wheat||``, but then what? There are exactly four steps.
 
 ```ghost
     hoc22.bakingBreadWheat()
@@ -21,9 +20,6 @@ Think about the order of operations it takes to make bread. You'd first ``||hoc2
 ```
 ```template
     hoc22.bakingBreadWheat()
-    hoc22.bakingBreadDough()
-    hoc22.bakingBreadBread()
-    hoc22.bakingBreadGrain()
 ```
 
 ```package

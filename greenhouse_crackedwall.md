@@ -5,14 +5,11 @@
 
 # Cracked Wall
 
-## Step 1
-The garden needs more water! Use the cursor to break some of these damaged bricks to get more water flowing.
+## Step 1  
+Саду нужно больше воды! Используй курсор, чтобы сломать несколько поврежденных кирпичей и позволить воде течь дальше.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Move the cursor using the ``||hoc22.cursor move <direction>||`` block and then use ``||hoc22.break block||`` to break a block in that position. Break all 4 blocks to get enough water to get to the next puzzle. 
-
+#### ~ tutorialhint  
+Используй "перемещение курсора", чтобы поставить курсор в нужное место, а затем "сломать блок", чтобы разрушить кирпич. Сломай все 4 блока, чтобы набрать достаточно воды для следующей головоломки.  
 
 
 ```ghost
@@ -24,12 +21,6 @@ Move the cursor using the ``||hoc22.cursor move <direction>||`` block and then u
 ```
 ```template
     hoc22.cursorMoveOrientationOneDown(1) 
-    hoc22.breakBlock()
-    hoc22.cursorMoveOrientationOneRight(4) 
-    hoc22.breakBlock() 
-    hoc22.cursorMoveOrientationOneDown(4)
-    hoc22.cursorMoveOrientationOneLeft(1)
-    hoc22.breakBlock()
 ```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4

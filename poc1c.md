@@ -5,20 +5,19 @@
 
 # Agent Maze
 
-## Step 1
-Move the Agent to the GREEN block.
+## Step 1  
+Перемести Агента на ЗЕЛЕНЫЙ блок.  
 
-Use ``||hoc22.agent move||``
+#### ~ tutorialhint 
+Используй "перемещение агента".  
 
 ```ghost
     hoc22.agentMove(FORWARD, 1)
 ```
 ```template
-    hoc22.agentMove(UP, 3)
-    hoc22.agentMove(RIGHT, 2)
-    hoc22.agentMove(DOWN, 3)
+    hoc22.agentMove(UP, 1)
 ```
 
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4#v0.2.68
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4
 ```

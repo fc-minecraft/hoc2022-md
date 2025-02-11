@@ -5,14 +5,11 @@
 
 # Staircase
 
-## Step 1
-Use your cursor to build a staircase to access the upper level!
+## Step 1  
+Используй курсор, чтобы построить лестницу и добраться до верхнего уровня!  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Use the ``||hoc22.move cursor <direction>||`` and ``||hoc22.place block||`` blocks to build a staircase that you as a player can climb over. Make sure you are building at least one block at a time so you can jump over it. Try modifying the default code instead of starting from scratch.
-
+#### ~ tutorialhint  
+Используй "перемещение курсора" и "разместить блок", чтобы построить лестницу, по которой ты сможешь забраться. Убедись, что ставишь блоки так, чтобы можно было на них запрыгивать. Попробуй изменить готовый код вместо того, чтобы начинать с нуля.  
 
 
 ```ghost
@@ -25,8 +22,6 @@ Use the ``||hoc22.move cursor <direction>||`` and ``||hoc22.place block||`` bloc
 ```
 ```template
     hoc22.placeBlock()
-    hoc22.cursorMoveOrientationOneRight(2)   
-    hoc22.placeBlock() 
 ```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4

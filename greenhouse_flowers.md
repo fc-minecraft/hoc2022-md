@@ -5,13 +5,11 @@
 
 # Flower Planting
 
-## Step 1
-It looks like there is some type of pattern to follow in this flower bed. Maybe the planters to the left and right are clues?
+## Step 1  
+Похоже, в этой клумбе есть какой-то узор. Может быть, вазоны слева и справа подскажут, что делать?  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Move the cursor using the ``||hoc22.cursor move <direction>||`` block and then use ``||hoc22.place <flower>||`` to place the correct flower. Fill the entire flower bed by matching the pattern on the left and right to complete the puzzle.
+#### ~ tutorialhint  
+Используй "перемещение курсора", чтобы поставить курсор в нужное место, а затем "посадка цветка", чтобы посадить правильный цветок. Заполни всю клумбу, повторяя узор слева и справа, чтобы решить головоломку.  
 
 
 
@@ -27,12 +25,6 @@ Move the cursor using the ``||hoc22.cursor move <direction>||`` block and then u
 ```
 ```template
     hoc22.flowerPlantingBlueFlower() 
-    hoc22.cursorMoveOrientationOneRight(3)    
-    hoc22.cursorMoveOrientationOneDown(1) 
-    hoc22.flowerPlantingYellowFlower()  
-    hoc22.cursorMoveOrientationOneLeft(1)   
-    hoc22.cursorMoveOrientationOneDown(1) 
-    hoc22.flowerPlantingRedFlower()    
 ```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4

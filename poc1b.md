@@ -5,10 +5,12 @@
 
 # Mob Weight
 
-## Step 1
-Make the scale add up to 10 lbs
+## Step 1  
+Сделай так, чтобы весы показывали ровно 10 фунтов  
 
-Use ``||hoc22.summonWeight <mob>||``
+#### ~ tutorialhint 
+Используй "призвать"  
+
 
 ```ghost
     hoc22.summonWeightChicken(1)
@@ -16,9 +18,8 @@ Use ``||hoc22.summonWeight <mob>||``
     hoc22.summonWeightSheep(1)
 ```
 ```template
-    hoc22.summonWeightChicken(4)
-    hoc22.summonWeightSheep(1)
+    hoc22.summonWeightChicken(1)
 ```
 ```package
-minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4#v0.2.68
+minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4
 ```

@@ -5,13 +5,11 @@
 
 # Maze
 
-## Step 1
-The Enderman butler needs your help getting through the maze to the Emerald blocks on the other side. The levers on the wall seem to match the doors colors. When flipping the lever, one door opens and another closes. 
+## Step 1  
+Дворецкому Эндермена нужна помощь, чтобы пройти через лабиринт к Изумрудным блокам на другой стороне. Рычаги на стене, похоже, соответствуют цветам дверей. Когда ты переключаешь рычаг, одна дверь открывается, а другая закрывается.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Create a path to the Emerald blocks by using the levers. Be careful! Opening one door will close the other. Then, use the ``||hoc22.move enderman||`` blocks to get them through the maze to the emerald blocks.
+#### ~ tutorialhint  
+Создай путь к Изумрудным блокам, используя рычаги. Будь осторожен! Открывая одну дверь, ты закрываешь другую. Затем используй "переместить", чтобы провести его через лабиринт к Изумрудным блокам.  
 
 
 
@@ -22,8 +20,7 @@ Create a path to the Emerald blocks by using the levers. Be careful! Opening one
     hoc22.npcMoveRight(1)
 ```
 ```template
-    hoc22.npcMoveForward(2)
-    hoc22.npcMoveRight(3) 
+    hoc22.npcMoveForward(1)
 ```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4

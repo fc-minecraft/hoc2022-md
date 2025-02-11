@@ -5,8 +5,8 @@
 
 # No Coding Needed
 
-## Step 1
-There aren't any coding activities active. Search the area for the next objective.
+## Step 1  
+Сейчас нет активных заданий с кодом. Осмотрись вокруг и найди следующую цель.  
 
 
 ```ghost

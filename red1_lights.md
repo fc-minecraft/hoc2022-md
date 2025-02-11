@@ -5,13 +5,11 @@
 
 # Lights
 
-## Step 1
-There's seems to be a pattern with the way the lights are flashing. Move the Enderman to each spot matching the pattern the lights are making.
+## Step 1  
+Похоже, у огней есть определенный узор мигания. Перемести Эндермена на каждое место, соответствующее этому узору.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Use the ``||hoc22.move enderman butler||`` blocks to move the Enderman butler to the correct lights. Pay attention to the pattern of the lights. Your code should match that pattern. 
+#### ~ tutorialhint  
+Используй "переместить", чтобы перемещать его к правильным огням. Внимательно следи за узором мигания огней — твой код должен повторять этот узор.  
 
 
 
@@ -22,8 +20,7 @@ Use the ``||hoc22.move enderman butler||`` blocks to move the Enderman butler to
     hoc22.npcMoveYellow()
 ```
 ```template
-    hoc22.npcMoveLime() 
-    hoc22.npcMoveYellow()
+    hoc22.npcMoveLime()
 ```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4

@@ -5,13 +5,12 @@
 
 # Bookcase Staircase
 
-## Step 1
-There seems to be something at the top of the bookcase. See if you can create a way to get up there.
+## Step 1  
+Похоже, наверху книжного шкафа что-то есть. Попробуй создать способ, чтобы добраться туда.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
+#### ~ tutorialhint  
+Используй "перемещение курсора", чтобы выбрать положение вдоль шкафа, а затем "разместить блок", чтобы поставить блок в этом месте. Построй лестницу, чтобы добраться до верха.  
 
-#### ~ tutorialhint 
-Move the cursor along the bookcase to select a position using the ``||hoc22.cursor move <direction>||`` block and then use ``||hoc22.place block||`` to place a block in that position. Create a staircase to get to the top.
 
 ```ghost
     hoc22.cursorMoveOrientationOneUp(1)
@@ -24,10 +23,6 @@ Move the cursor along the bookcase to select a position using the ``||hoc22.curs
 ```
 ```template
     hoc22.placeBlock()        
-    hoc22.cursorMoveOrientationOneRight(3)
-    hoc22.placeBlock()
-    hoc22.cursorMoveOrientationOneRight(3)
-    hoc22.placeBlock()
 ```
 
 ```package

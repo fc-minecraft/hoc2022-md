@@ -5,13 +5,11 @@
 
 # Wrong Reflection
 
-## Step 1
-The pumpkins above the fireplace in the mirror is somehow different than the ones in this room. Try making them match.
-
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
+## Step 1  
+Тыквы над камином в зеркале чем-то отличаются от тех, что в этой комнате. Попробуй сделать их одинаковыми.  
 
 #### ~ tutorialhint  
-Move the cursor above the fireplace using ``||hoc22.cursor move <direction>||`` to select a position and ``||hoc22.place pumpkin||`` to place a pumpkin in that position.
+Используй "перемещение курсора", чтобы выбрать положение над камином, затем "разместить тыкву", чтобы поставить тыкву в нужное место.  
 
 ```ghost
     hoc22.cursorMoveOrientationOneUp(1)
@@ -23,12 +21,6 @@ Move the cursor above the fireplace using ``||hoc22.cursor move <direction>||`` 
 
 ```
 ```template
-    hoc22.cursorMoveOrientationOneLeft(1)
-    hoc22.placePumpkin()
-    hoc22.cursorMoveOrientationOneLeft(1)
-    hoc22.placePumpkin()
-    hoc22.cursorMoveOrientationOneLeft(1)
-    hoc22.placePumpkin()
     hoc22.cursorMoveOrientationOneLeft(1)
 ```
 

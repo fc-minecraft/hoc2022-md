@@ -5,13 +5,11 @@
 
 # Block Breaker
 
-## Step 1
-Use the cursor to break the blocks in front of the door to escape.
+## Step 1  
+Используй курсор, чтобы включить все огни. Когда все огни загорятся, дверь откроется.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Use the ``||hoc22.cursor move <direction>||`` block combined with ``||hoc22.break block||`` to break through enough blocks. You don't have to break all of them, just enough to get to the door.
+#### ~ tutorialhint  
+Используй "перемещение курсора", чтобы выбрать свет, затем "включить", чтобы его зажечь. Использование цикла упростит код, но это не обязательно.  
 
 
 
@@ -25,7 +23,6 @@ Use the ``||hoc22.cursor move <direction>||`` block combined with ``||hoc22.brea
 ```
 ```template  
     hoc22.cursorMoveOrientationOneRight(1)   
-    hoc22.cursorMoveOrientationOneRight(1)     
 ```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4

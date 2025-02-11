@@ -5,13 +5,11 @@
 
 # Minecart Redirection
 
-## Step 1
-Deliver each mob to their correct place. Look at the mobs lined up and change the code to make sure they arrive in the order they are waiting.
+## Step 1  
+Похоже, Зомби-Повар перепутал заказы! Осмотри кухню, найди меню и убедись, что каждый получил правильное блюдо.
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Use the ``||hoc22.sort||`` blocks to send the mobs to the correct passageways. They will be released from right to left, so make sure you order them correctly in your code.
+#### ~ tutorialhint  
+Используй "поменять местами сторону", чтобы переставить блюда так, чтобы все получили свой заказ. Минимальное количество замен — три.  
 
 
 
@@ -22,10 +20,6 @@ Use the ``||hoc22.sort||`` blocks to send the mobs to the correct passageways. T
 ```
 ```template
     hoc22.minecraftSortingZombie(1)
-    hoc22.minecraftSortingSkeleton(1)
-    hoc22.minecraftSortingCreeper(1)
-    hoc22.minecraftSortingZombie(1)
-    hoc22.minecraftSortingSkeleton(1)
 ```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4

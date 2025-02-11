@@ -9,12 +9,15 @@
 Теперь, когда люк открыт, подними Агента на два блока вверх, чтобы освободить его.  
 
 #### ~ tutorialhint   
-Используй блок ``||hoc22.agent move <direction> by <number>||``, чтобы переместить Агента на два блока вверх.  
+Используй блок "перемещение агента", чтобы переместить Агента на два блока вверх.  
 
 
 
 ```ghost
     hoc22.agentMove(SixDirection.Up, 2)
+```
+```template
+    hoc22.agentMove(SixDirection.Down, 1)     
 ```
 
 ```package

@@ -5,13 +5,12 @@
 
 # Unlock the Trap
 
-## Step 1
-Now we have the chance to capture the Time Agents! We need to align all 3 colored discs to trap the Time Agents.
+## Step 1  
+Сейчас у нас есть шанс поймать Временных Агентов! Нам нужно выровнять все 3 цветных диска, чтобы их запереть.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
+#### ~ tutorialhint  
+Поверни каждую секцию с помощью "повернуть секцию", чтобы выровнять цветные дорожки между частями. Когда все будет на месте, мы наконец-то сможем остановить Временных Агентов!  
 
-#### ~ tutorialhint 
-Rotate each section using the ``||hoc22.rotate <section> <direction> by <number>||`` blocks. Line up the colored paths between both sections. Once that's done, we should be able to finally put a stop to those Time Agents!
 
 ```ghost
     hoc22.outerRingClockwise(1)
@@ -23,8 +22,6 @@ Rotate each section using the ``||hoc22.rotate <section> <direction> by <number>
 ```
 ```template       
     hoc22.outerRingClockwise(1)
-    hoc22.middleRingCounterclockwise(3)
-
 ```
 
 ```package

@@ -5,13 +5,11 @@
 
 # Colored Levers
 
-## Step 1
-All four levers must flipped in the correct order, very quickly, to open the door. Code the Speedy Knight to rapidly pull the levers for you.
+## Step 1  
+Все четыре рычага нужно переключить в правильном порядке и очень быстро, чтобы открыть дверь. Запрограммируй Быстрого Рыцаря, чтобы он быстро переключил рычаги за тебя.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Use the ``||hoc22.flip <color> lever||`` blocks to move the Speedy Knight to the selected color and flip the lever. Pay close attention to how many pieces of carpet there are. That will give you a clue on the order.
+#### ~ tutorialhint  
+Используй "переместить броню", чтобы переместить Быстрого Рыцаря к нужному цвету и активировать рычаг. Обрати внимание на количество ковров – это подскажет тебе правильный порядок.  
 
 ```ghost
     hoc22.teleportLightBlueLever()
@@ -21,9 +19,6 @@ Use the ``||hoc22.flip <color> lever||`` blocks to move the Speedy Knight to the
 ```
 ```template
     hoc22.teleportLightBlueLever()
-    hoc22.teleportOrangeLever()
-    hoc22.teleportYellowLever()
-    hoc22.teleportMagentaLever()
 ```
 
 ```package

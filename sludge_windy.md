@@ -5,13 +5,11 @@
 
 # Windy Bridge
 
-## Step 1
-Use your cursor to block the wind, so you can walk across the bridge.
+## Step 1  
+Используй курсор, чтобы заблокировать ветер и перейти по мосту.  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Use the ``||hoc22.cursor move||`` blocks to position the cursor in front of the holes and then use ``||hoc22.place block||`` to fill the holes in to block the wind.
+#### ~ tutorialhint  
+Используй "перемещение курсора", чтобы поставить курсор перед отверстиями, затем "разместить блок", чтобы закрыть их и остановить ветер.  
 
 
 
@@ -22,8 +20,7 @@ Use the ``||hoc22.cursor move||`` blocks to position the cursor in front of the 
     hoc22.cursorMoveOrientationOneRight(1)
     hoc22.placeBlock()
 ```
-```template
-    hoc22.cursorMoveOrientationOneRight(1)   
+```template 
     hoc22.placeBlock()
 ```
 ```package

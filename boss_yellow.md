@@ -5,13 +5,12 @@
 
 # Pull the Lever
 
-## Step 1
-There's the lever! Move the Agent to the lever and then pull it down!
+## Step 1  
+Вот и рычаг! Перемести Агента к рычагу и опусти его вниз!  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
+#### ~ tutorialhint  
+Используй "перемещение агента", чтобы поставить его перед рычагом, а затем "потянуть рычаг вниз", чтобы активировать его!  
 
-#### ~ tutorialhint 
-Use the ``||hoc22.agent move||`` block to position the Agent in front of the lever, and then use ``||hoc22.pull lever down||`` to activate it!
 
 ```ghost
     hoc22.agentMove(SixDirection.Up, 2)

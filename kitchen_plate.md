@@ -5,13 +5,12 @@
 
 # Plate Swap
 
-## Step 1
-It seems the Zombie Chef gave everyone the wrong meal! Search the kitchen for the menu and make sure everyone ends up with the correct meal. You only need to add one block to the end of the debug code.
+## Step 1  
+Похоже, Зомби-Повар перепутал заказы! Осмотри кухню, найди меню и убедись, что каждый получил правильное блюдо. 
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
+#### ~ tutorialhint  
+Используй "поменять местами сторону", чтобы переставить блюда так, чтобы все получили свой заказ. Минимальное количество замен — три.  
 
-#### ~ tutorialhint 
-Use the ``||hoc22.swap <color> side||`` blocks to swap the dishes until everyone has their correct meals. The minimum amount of swaps required is three.
 
 ```ghost
     hoc22.dinnerTableSwapGreen()
@@ -21,7 +20,6 @@ Use the ``||hoc22.swap <color> side||`` blocks to swap the dishes until everyone
 ```
 ```template
     hoc22.dinnerTableSwapBlue()
-    hoc22.dinnerTableSwapRed()
 ```
 
 ```package

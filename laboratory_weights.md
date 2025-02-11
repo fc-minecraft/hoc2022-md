@@ -5,13 +5,11 @@
 
 # Weights
 
-## Step 1
-You need the scale to reach the total weight of exactly 23. Maybe there is a sign around with mob weights?
+## Step 1  
+Тебе нужно, чтобы вес на весах стал ровно 23. Может, где-то рядом есть табличка с весом мобов?  
 
-The included example code is broken, can you fix it? Debug the code by running it to see what it does and then edit it to the correct solution.
-
-#### ~ tutorialhint 
-Use the `||hoc22.summon <mob>||` blocks to spawn in mobs to get a total weight of 23. A chicken is 1, a sheep is 3, and a cow is 5.
+#### ~ tutorialhint  
+Используй "призвать", чтобы создать мобов и получить общий вес 23. Вес мобов: курица — 1, овца — 3, корова — 5.  
 
 
 
@@ -22,9 +20,7 @@ Use the `||hoc22.summon <mob>||` blocks to spawn in mobs to get a total weight o
 ```
 ```template
     hoc22.summonWeightSheep(1)
-    hoc22.summonWeightCow(1)
-    hoc22.summonWeightChicken(1)
-      
+
 ```
 ```package
 minecraft-hoc22=github:fc-minecraft/hoc22-ts#v0.0.4
